@@ -1,0 +1,478 @@
+ 
+
+*{
+    list-style: none;
+    text-decoration: none ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.mainheader{
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 5px solid red;
+}
+.mainheader .branding{
+    width: 130px;
+    height: 80px;
+    margin: 10px 10px 10px 10px;
+}
+.mainheader ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+.mainheader  li {
+   padding: 15px;
+    
+    
+}
+.mainheader .searchbox{
+    padding-right: 200px;
+
+}
+.mainheader .languagedd {
+    padding-right: 100px;
+}
+.mainheader .signin{
+    padding-right: 0%;
+}
+
+@media screen and (max-width : 390px){
+    .mainheader{ margin: 0; padding: 0;}
+   header{
+    display:  none;
+   }
+
+   .section-welcome .left-video{
+   display: none;
+   }
+
+   .section-welcome .welcome{
+    width: 100%;
+    overflow: none;
+   }
+}
+/*---------------- FIRST SECTION BEGINS || WELCOME ------------------------*/
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: #073042;     
+    padding: 80px 100px;
+}
+.container .welcome{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 64px 0 70px;
+    padding: 0 100px 0 80px;
+}
+.welcome .right-text{
+    width: 680px;
+    height: 400px ;
+    color: #FFFFFF;
+    padding-left: 40px;
+}
+.welcome  .left-video img{
+    width: 400px;
+    height: 420px;
+
+}
+.welcome .right-text h1{
+
+  font-size: 64px;
+  font-size: bold;
+  padding-bottom: 20px;
+
+}
+.welcome .right-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.welcome .right-text button{
+    color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #3DDC84;
+    font-size: 16px;
+    font-weight: bold;
+}
+.welcome .right-text a{
+    color: #3DDC84;
+    padding-left: 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+@media screen and (max-width : 390px){
+    .container{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container .welcome{
+        margin: 0;
+        padding: 0;
+    }
+    .welcome .right-text{ 
+        margin: 10px;
+        padding: 10px;
+    }
+    .welcome .right-text button{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 22px;
+    }
+    .welcome .right-text a{
+        margin: auto;
+        padding-left: 38%;
+        
+    }
+}
+/*---------------- FIRST SECTION ENDS -|| WELCOME -----------------------*/
+
+
+/* -------------------BOXES SECTION BEGINS---------------------------- */
+.container1{
+    height: 100%;
+    margin: 0 15% 0 15%;
+
+}
+.boxes-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-top: 50px;
+}
+.boxes-div .box{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7EFFE;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+.boxes-div .box img{
+    width: 48px;
+    height: 48px;
+}
+
+.boxes .box .text{
+    font-weight: bold;
+}
+
+@media screen and (max-width : 390px){
+    .container1{
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+   .boxes-div{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+   }
+   .boxes-div .box{
+    margin: 10px;
+   }
+}
+/* ---------------------BOXES SECTION ENDS---------------------------------- */
+
+/* ---------------FEATURED BOXES SECTION BEGINS------------------------------ */
+.container1 .featured-div{
+    display:  flex;
+    justify-content: space-between;
+    height: 700px;
+    padding : 50px 0px;
+}
+
+.container1 .featured-div .box-featured-left{
+    background-color: #073042;     
+    width: 50%;
+    color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+}
+.container1 .featured-div .gap-div{
+    width : 50px;
+    background-color: #FFFFFF;
+}
+
+.container1 .featured-div .box-featured-right{
+    background-color: #D7EFFE;
+    width: 50%;
+    color: black;
+    padding: 40px;
+    display: flex;
+
+}
+.container1 .featured-div .left-text-div{
+    width: 60%;
+}
+.container1 .featured-div  .right-img-div{
+    position: relative;
+}
+.container1 .featured-div  .right-img-div img{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    width: 200px;
+  
+}
+
+.container1 .featured-div .featured{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.container1 .featured-div .heading{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.container1 .featured-div .box-featured-left .content{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 180px;
+
+}
+.container1 .featured-div .box-featured-left .left-text-div .buttonclass{
+    padding-bottom: 20px;
+}
+.container1 .featured-div .box-featured-left .left-text-div button{
+        width: 120px;
+        height: 45px; 
+        border: 2px #FFFFFF solid;
+        color: #FFFFFF;
+        background-color: #073042;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+        
+
+}
+button:hover{
+    background-color: #FFFFFF;
+    color: #073042;
+}
+.container1 .featured-div .box-featured-right .content{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 80px;
+
+}
+
+.container1 .featured-div .box-featured-right .left-text-div .buttonclass{
+
+}
+.container1 .featured-div .box-featured-right .left-text-div button{
+    width: 120px;
+    height: 45px; 
+    border: 2px #FFFFFF solid;
+    color: #FFFFFF;
+    background-color: #073042;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    
+
+}
+.container1 .featured-div .image{
+    
+}
+
+@media screen and (max-width : 390px){
+    .container1 .featured-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1 .featured-div .box-featured-left{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container1 .featured-div .box-featured-right{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container1 .featured-div  .box-featured-left .left-text-div {
+        width: 100%;
+
+    }
+    .container1 .featured-div  .box-featured-left .left-text-div .buttonclass{
+        width: 100%;
+    }
+    .container1 .featured-div  .box-featured-left .left-text-div  .buttonclass button{
+        width: 100%;
+    }
+
+    .container1 .featured-div  .box-featured-left .right-img-div img{
+        /* position: absolute;
+        top :0px;
+        right: 0px;
+        align-self: flex-start;
+        width: 100%;
+        height: 100px;
+        background-color: #073042; */
+        display: none;
+    }
+
+    .container1 .featured-div .gapdiv {
+        width: 100%;
+        height: 20px;
+        background-color: #FFFFFF;
+    }
+
+
+
+    .container1 .featured-div .box-featured-right .left-text-div {
+        width: 100%;
+    }
+    
+    .container1 .featured-div .box-featured-right .left-text-div .heading {
+        width: 100%;
+    }
+   
+    .container1 .featured-div .box-featured-right .left-text-div .content {
+        width: 100%;
+    }
+    .container1 .featured-div .box-featured-right .left-text-div button{
+        width: 100%;
+    }
+    .container1 .featured-div .box-featured-right .right-img-div{
+        display: none;
+    }
+}
+/* ---------------FEATURED BOXES SECTION ENDS-------------------------------- */
+
+/* -----------------VISIT OUR COMMUNITY SECTION BEGINS----------------------------- */
+.container1 h1{
+    font-size: 40px;
+    padding: 30px 0px;
+}
+.container1 .boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0px;
+    
+}
+.container1 .boxes .box{
+    width: 31%;
+    height: 400px;
+    background-color: #eff7cf;
+    padding: 40px;
+}
+.container1 .boxes .box img{
+
+    width: 20%; 
+    height: 20%;
+    padding-bottom: 30px;
+}
+.container1 .boxes .box .heading{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+.container1 .boxes .box .content{
+    font-size: 15px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+@media screen and (max-width : 390px){
+    .container1 h1{
+        margin-top: 800px;
+        font-size: 30px;
+    }
+    .container1 .boxes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container1 .boxes .box{
+        width: 100%;
+        margin-bottom: 15px;
+        
+    }
+
+}
+
+/* -----------------VISIT OUR COMMUNITY SECTION ENDS----------------------------- */
+.footer1{
+    width: 100%;
+    height: 200px;
+    background-color:#FFFFFF ;
+    margin: 50px 0px;
+    border: 0.5px   #bdc1c6 solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 0px;
+
+}
+.footer1 .icons{
+    display: flex;
+     flex-direction: column; 
+    width: 175px;
+
+}
+.footer1 .icons img{
+    width: 50px;
+    height: 50px;
+}
+.footer1 .icons .heading{
+    line-height: 1.5;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
+}
+.footer1 .icons .content{
+    line-height: 1.5;
+}
+@media screen and (max-width : 390px){
+    .footer1{
+        margin-top: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer1 .icons{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer1 .icons img{
+        width: 30px;
+        height: 30px;
+
+    }
+      
+    .footer1 .icons .content{
+        display: none;
+    }
+    
+}
